@@ -1,0 +1,35 @@
+// import java.util.*;
+
+// class Rectangle
+// {
+//     public static void main(String args[])
+//     {
+//       float l,b,a;
+//       Scanner sc=new Scanner(System.in);
+//       System.out.println("Enter l and b: ");
+
+//       l=sc.nextFloat();
+//       b=sc.nextFloat();
+//       a=l*b;
+
+//       System.out.println("Area of Ractangle is: "+a);
+//     }
+// }
+import java.util.*;
+
+class Sphere
+{
+    public static void main(String args[])
+    {
+     final float pi=3.14f;
+      float r,a;
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter r: ");
+
+      r=sc.nextFloat();
+      //b=sc.nextFloat();
+      a=1.33f*pi*r*r*r;
+
+      System.out.println("Area of Sphere is: "+a);
+    }
+}
